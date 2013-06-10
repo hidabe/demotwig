@@ -1,0 +1,22 @@
+{% extends 'superdemo/base_jquery.html.twig' %}
+
+{% block meta %}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% endblock %}
+
+{% block css %}
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+	<div class="container">
+		{% block content_body %}
+		{% endblock %}
+	</div>
+{% endblock %}
+
+{% block js %}
+	{{ parent() }}
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+{% endblock %}

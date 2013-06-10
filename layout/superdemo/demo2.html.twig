@@ -1,0 +1,19 @@
+{% extends 'superdemo/base_login.html.twig' %}
+
+{% block title %}Login{% endblock %}
+
+{% block login_header %}
+	Realice su Login
+{% endblock %}
+
+{% block login_body %}
+  <input type="text" class="input-block-level" placeholder="Email">
+  <input type="password" class="input-block-level" placeholder="Contraseña">
+  <label class="checkbox">
+    <input type="checkbox" value="remember-me"> Recordar
+  </label>
+{% endblock %}
+
+{% block login_footer %}
+	Acceso
+{% endblock %}
