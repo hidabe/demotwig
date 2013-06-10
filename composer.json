@@ -1,0 +1,19 @@
+{
+    "name": "hidabe/demotwig",
+    "version": "0.0.1",
+    "description": "Demo about twig",
+    "keywords": ["demo, twig"],
+    "type": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Hidalgo Becerra",
+            "email": "fhidalgo@sopinet.com",
+            "homepage": "http://sopinet.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+				"twig/twig": "1.*"
+		}
+}
